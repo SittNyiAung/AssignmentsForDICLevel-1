@@ -6,7 +6,7 @@ char wordToFind[30];
 int count[1]={wordToFind[30]};
 void finding();
 int main(){
-    printf("Enter a word to find :");
+    printf("Enter a word to find : ");
     gets(wordToFind);
     finding();
 
